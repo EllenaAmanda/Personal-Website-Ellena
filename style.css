@@ -1,20 +1,42 @@
 .container{
-    margin: 10px 50px;
+    margin: 50px 50px;
+    padding: 30px;
+    color: rgb(50, 50, 50);
 }
 
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#myName{
+    font-weight: 600;
+    font-size: larger;
+    color: grey;
 }
 
 #navigation{
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
-    background-color: aqua;
+    padding: 20px 80px;
+    align-items: end;
 }
 
-#flex{
+#flexNav{
     display: flex;
     gap: 30px;
+}
+
+a[href]{
+    text-decoration: none;
+    color: grey;
+}
+
+a[href]:hover{
+    color: hotpink;
+}
+
+#heroDesc{
+    font-size: larger;
 }
