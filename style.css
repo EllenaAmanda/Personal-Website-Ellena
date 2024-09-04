@@ -37,6 +37,25 @@ a[href]:hover{
     color: hotpink;
 }
 
+#heroTitle{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
 #heroDesc{
     font-size: larger;
+    margin-top: 0px;
+}
+
+#containerSocial{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
