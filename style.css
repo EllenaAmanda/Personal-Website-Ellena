@@ -9,7 +9,9 @@
     color: rgb(55, 55, 55);
 }
 
-
+h1{
+    font-family: myFont;
+}
 
 #socialSpan{
     border-bottom: 1px grey solid;
@@ -106,7 +108,7 @@ body{
 /* found in blog page */
 .card{
     padding: 32px;
-    width: 50%;
+    width: 724px;
     border: 1px solid rgb(175, 175, 175);
     border-radius: 5px;
     display: flex;
@@ -125,6 +127,17 @@ body{
 .card p{
     color: gray;
 }
+
+#blog-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog-flex img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+
 
 /* found in porto page */
 #containerPorto{
@@ -166,6 +179,7 @@ body{
     width: auto;
     height: 25rem;
 }
+
 
 /* found in about me page */
 #about-image{
